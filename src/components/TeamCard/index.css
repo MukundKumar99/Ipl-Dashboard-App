@@ -1,0 +1,41 @@
+.ipl-list-link {
+  text-decoration: none;
+  width: 47%;
+}
+.ipl-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 90px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+@media screen and (min-width: 768px) {
+  .ipl-list {
+    margin-bottom: 34px;
+  }
+}
+.ipl-card-image {
+  width: 30%;
+  margin-right: 14px;
+}
+@media screen and (min-width: 768px) {
+  .ipl-card-image {
+    height: 160px;
+  }
+}
+.ipl-card-title {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .ipl-card-title {
+    font-size: 30px;
+  }
+}
